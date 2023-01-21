@@ -1,11 +1,11 @@
 s = "i like this program very much"
-print(s)
+# print(s)
 words=s.split(' ')
-print(words)
+# print(words)
 string = []
 for word in words:
-    string.append(word)
+    # string.append(word)
     #  print(word)
 
-    # string.insert(0,word)
+    string.insert(0,word)
 print(" ".join(string))
